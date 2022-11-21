@@ -110,17 +110,19 @@ body, html {
   }
 
   .item {
-    border-radius: 9px;
+    border-radius: 15px;
 
     display: flex;
     font-size: 10px;
-    padding: 16px;
-    margin: 16px;
+    padding: 10px;
     width: 300px;
     height: 15vh;
     background: white;
-    border: solid #5B6DCD 10px;
-    
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 20px;
+    border-left: 8px solid #204994;
+    border-radius: 8px;
   }
   
   .right-side {
