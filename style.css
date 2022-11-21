@@ -13,17 +13,17 @@ body, html {
   }
 
   ul.bottom{
-    margin-top: 80px;
+    margin-top: 20px;
   }
   
   li {
-    margin-bottom: 12px;
+    margin-bottom: 1px;
   }
   
   a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    
   }
   
   .container {
@@ -52,30 +52,42 @@ body, html {
   }
   
   .sidebar {
-    font-size: 16px;
     background-color: #3bd9e7;
     grid-column: 1/2;
     grid-row: 1/ 4;
-    padding: 10px;
+    padding: 5px;
     width: 18vw;
     flex-shrink: 0;
     margin-top: 0;
     padding-top: 1px;
-    padding-bottom: 50px;
     text-align: left;
   }
 
+  .lists {
+    height: 60vh;
+  }
+
+  .top-nav-grid-logo {
+    font-size: 30px;
+  }
+
+  
   .top-logo {
-    padding: 20px;
     padding-bottom: 50px;
     font-size: 30px;
     text-align:left;
     color: white;
   }
+
+  .nav-grid-logo{
+    font-size: 14px;
+    text-align:left;
+    color: white;
+    padding: 1em;
+  }
   
   .dashboard {
-    padding: 1em;
-    color: #f9f9f9;
+    
   }
 
   .projects {
