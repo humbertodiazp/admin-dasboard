@@ -5,7 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>admin dashboard</title>
-    <link rel="stylesheet" href="style.css">
+   <!-- CSS -->
+   <link href="style.css" rel="stylesheet">
+
+   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
@@ -17,21 +26,79 @@
             <input class="searchbar" type="text" placeholder="">
         </div> 
         <div class="sidebar">
-            <div class="logo"> Dashboard</div> 
-            <ul>
-                <li><a class="dashboard" href="#Home">Home</a></li>
-                <li><a class="dashboard" href="#Profile">Profile</a></li>
-                <li><a class="dashboard" href="#Messages">Messages</a></li>
-                <li><a class="dashboard" href="#History">History</a></li>
-                <li><a class="dashboard" href="#Tasks">Tasks</a></li>
-                <li><a class="dashboard" href="#Communities">Communities</a></li>
-                <ul class="bottom">
-                    <li><a class="dashboard" href="#Settings">Settings</a></li>
-                    <li><a class="dashboard" href="#Support">Support</a></li>
-                    <li><a class="dashboard" href="#Privacy">Privacy</a> </li>
-                </ul>
+            <div class="top-logo">
+                <div class="top-nav-grid-logo">
+                    <span class="mdi mdi-view-dashboard navlogo"> </span>
+                    <span href="logo"> Dashboard</span>
+                </div>
+            </div> 
+            <div class="lists">
+                <ul>
+                    <li>
+                        <div class="nav-grid-logo">
+                            <span class="mdi mdi-home-circle"> </span>
+                            <a href="#Home"> Home</a>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="nav-grid-logo">
+                            <span class="mdi mdi-card-account-details-outline"> </span>
+                            <a href="#Profile">Profile</a>
+                        </div>  
+                    <li>
+                    
+                    <li>
+                        <div class="nav-grid-logo">
+                            <span class="mdi mdi-gmail"> </span>
+                            <a href="#Messages">Messages</a>
+                        </div>  
+                    <li>
+                    
+                    <li>
+                        <div class="nav-grid-logo">
+                            <a class="mdi mdi-history"> </a>
+                            <a href="#History">History</a>
+                        </div>  
+                    <li>
+    
+                    <li>
+                        <div class="nav-grid-logo">
+                            <a class="mdi mdi-clipboard-edit-outline"> </a>
+                            <a href="#Tasks">Tasks</a>
+                        </div>  
+                    <li>
                 
-            </ul>
+                    <li>
+                        <div class="nav-grid-logo">
+                            <a class="mdi mdi-account-group"></a>
+                            <a href="#Communities">Communities</a>
+                        </div>  
+                    <li>
+                        
+                    <ul class="bottom">
+                        <li>
+                            <div class="nav-grid-logo">
+                                <a class="mdi mdi-cog" ></a>
+                                <a href="#Settings">Settings</a>
+                            </div>  
+                        <li>
+                        <li>
+                            <div class="nav-grid-logo">
+                                <a class="mdi mdi-file-question-outline" ></a>
+                                <a href="#Support">Support</a>
+                            </div>  
+                        <li>
+                        <li>
+                            <div class="nav-grid-logo">
+                                <a class="mdi mdi-shield-check"></a>
+                                <a href="#Privacy">Privacy</a>
+                            </div>  
+                        <li>                    
+                    </ul>
+                    
+            </div>
+            
             
         </div>
 
@@ -41,43 +108,33 @@
             <div class="project-items">
                 <div class="item">
                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis, dolorem ipsa quas molestiae laboriosam necessitatibus odit deleniti excepturi autem fugiat nisi, nobis voluptas esse veritatis quod reiciendis sed sunt!
-                    Assumenda ipsum minima veniam, quisquam magni provident, vel non ab debitis quis veritatis eos iste commodi. Praesentium quas voluptatibus incidunt explicabo, delectus eum nostrum expedita, nam qui ex officiis corporis.
-                    Magni corporis numquam incidunt, modi quam cupiditate excepturi commodi repellat repellendus aspernatur provident cum nihil doloribus maiores eaque ab inventore odit eveniet est animi architecto iste! Ad odit velit sequi?
-                    Provident dicta similique error quae maxime in suscipit nulla at corrupti debitis earum beatae ratione, quasi veritatis quo dolorum aliquid velit tempora consequuntur. Deserunt architecto repellat totam sapiente, ut atque?</p>
+                    Assumenda ipsum minima veniam, quisquam magni provident, vel non ab debitis quis veritatis eos iste commodi?</p>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
                 </div>
                 <div class="item">
                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam aliquid hic tempore dicta quam iure deserunt provident nihil cumque minima aspernatur odio voluptatum voluptas suscipit, quaerat aut ad aperiam?
-                    Excepturi asperiores quod aperiam iusto culpa pariatur dolores cupiditate magnam perspiciatis, eveniet hic saepe labore aliquam nesciunt, placeat, quas velit eligendi. Laudantium perferendis error at possimus magni voluptatum laborum sint.
-                    Ad delectus necessitatibus qui alias dolore nemo distinctio natus facere eum. Nostrum aliquid, corrupti libero sapiente sequi nemo modi qui magni voluptates accusantium ex odio beatae quas aperiam sit reprehenderit.
-                    Repudiandae, recusandae atque. Earum illum quidem ea commodi illo deserunt ad in nemo numquam voluptatum? Ullam quo cumque tempore recusandae cupiditate! Doloremque aspernatur ipsam ad alias incidunt amet ipsum commodi.
-                    Odit eligendi voluptate veniam labore tempore sit tenetur ullam cumque reprehenderit officia id iusto maxime illum temporibus alias, autem accusantium totam ducimus quam sapiente? Provident quod nam natus obcaecati eveniet.</p>
+                    Excepturi asperiores quod aperiam iusto culpa pariaturo natus facere eum. officia id iusto maxime illum temporibus alias, autem accusantium totam ducimus quam sapiente? Provident quod nam natus obcaecati eveniet.</p>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
                 </div>
                 <div class="item">
                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aperiam commodi blanditiis aut labore quis, in corrupti error minima repellat, animi saepe dolor nulla eligendi exercitationem dolores possimus consequuntur tenetur.
-                    Qui temporibus nam accusantium vitae, sapiente libero nobis ipsam consectetur incidunt, praesentium quia quis molestias eius dolore repellendus nostrum consequatur recusandae sint nulla? Itaque eos dicta voluptatibus tempore reprehenderit? Possimus?
-                    Voluptatem nesciunt illum molestiae! Non voluptatibus quibusdam cupiditate facilis. Earum modi distinctio laudantium debitis dolor libero corrupti at laboriosam aliquid inventore aperiam accusantium vel ex quod, minus amet ullam praesentium.</p>
+                    Qui temporibus nam accusantium vitae, sapiente libero nobis ipsam consectetur incidunt. Earum modi distinctio laudantium debitis dolor libero corrupti at laboriosam aliquid inventore aperiam accusantium vel ex quod, minus amet ullam praesentium.</p>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
                 </div>
                 <div class="item">
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi vero deserunt distinctio consectetur. Itaque animi placeat id? Totam natus blanditiis, esse voluptas tenetur sint nulla exercitationem nam, deleniti provident quae!
-                    Autem doloribus laudantium explicabo aliquam nisi? Et aut sapiente quae ullam illum exercitationem veniam eius voluptatum. Voluptatibus vitae placeat porro laboriosam omnis debitis velit ut ad in error, voluptas sed.</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.sapiente quae ullam illum exercitationem veniam eius voluptatum. Voluptatibus vitae placeat porro laboriosam omnis debitis velit ut ad in error, voluptas sed.</p>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
                 </div>
                 <div class="item">
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia unde rem aspernatur enim in deleniti possimus eum incidunt tempora optio at, natus veniam, omnis perferendis autem nostrum! Fugiat, adipisci in?
-                    Consectetur architecto quos, sint, ipsum cupiditate quisquam beatae quia nihil voluptatibus magni accusamus. Expedita quo vel maiores est rem accusantium magni at? Dolore numquam commodi, inventore exercitationem voluptatibus nam laudantium.
-                    Omnis, aliquam cumque tempora nulla ducimus quos assumenda sint sit. Reiciendis nihil laudantium modi ea amet eligendi, doloribus, perferendis ullam fugit similique sed, illo eum et natus iure debitis eius?
-                    Provident, deserunt alias ipsum reiciendis impedit rerum doloremque ipsa praesentium, odio nihil minima obcaecati quisquam. Sequi, voluptas? Nostrum quidem sit aspernatur cum voluptatum dolorum labore laudantium molestias, cupiditate officiis inventore!
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit., odio nihil minima obcaecati quisquam. Sequi, voluptas? Nostrum quidem sit aspernatur cum voluptatum dolorum labore laudantium molestias, cupiditate officiis inventore!
                     Repudiandae, voluptates aspernatur vero possimus repellendus qui, laborum vel adipisci ipsum iste nisi. Architecto iusto esse laudantium eaque, eum, unde sunt adipisci temporibus sint ipsum, numquam vitae optio modi nam.</p>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
@@ -85,8 +142,7 @@
                 </div>
                 <div class="item">
                     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, praesentium laudantium. Ipsam aut laudantium maiores sequi consectetur ipsa eaque pariatur! Nihil unde quia eveniet quaerat similique aliquam excepturi, minus adipisci.
-                    Voluptatum, ea soluta possimus quas quo optio ducimus inventore, accusantium nihil neque fugit hic molestiae vitae ex, ratione perferendis quaerat reprehenderit. Tenetur eius ducimus sed laudantium impedit temporibus laboriosam saepe?
-                    Magni nostrum quisquam provident dignissimos soluta illum amet voluptatem cupiditate non et alias debitis dolor dolorum sapiente ut vitae doloremque fugiat, adipisci, ullam est voluptatum esse nobis explicabo voluptatibus. Nobis.</p>
+                    Voluptatum, ea soluta possimus quas quo optio ducimus inventore,  voluptatem cupiditate non et alias debitis dolor dolorum sapiente ut vitae doloremque fugiat, adipisci, ullam est voluptatum esse nobis explicabo voluptatibus. Nobis.</p>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
                     <button class="icons" id=""></button>
