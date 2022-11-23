@@ -126,17 +126,24 @@ body, html {
   }
   
   .right-side {
-    flex: 1;
     display: flex;
-    flex-wrap: wrap;
-    background-color: #bccbde;
+    flex: 1;
+    background-color: #d7e2e3;
     grid-column: 3/4;
     grid-row: 2 / 4;
     width: 20vw;
+    padding: 10px;
+    
   }
   
   .right-side>div>div {
     display: flex;
-    justify-content: center;    
+    flex-direction: column;
+    padding: 10px;
+
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;  
+    margin-bottom: 10px;
   }
  
