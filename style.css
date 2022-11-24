@@ -11,6 +11,7 @@ body, html {
     box-sizing: border-box;
   }
   
+
   :root {
     --clr-primary: #ee6352;
     --clr-body: #333;
@@ -19,8 +20,7 @@ body, html {
   
   .content {
     font-size: 1.125em;
-  line-height: 1.6;
-   
+    line-height: 1.6;
     padding: 1em;
     color: black;
       
@@ -136,12 +136,36 @@ body, html {
   }
 
   .header {
+    display: flex;
+    justify-content: space-between;
     font-size: 20px;
     grid-column: 2 / 4;
     grid-row: 1 / 2;
     height: 20vh;
-  
+  }
+
+  .header-button {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-end;
     
+  }
+  .share  {
+    
+    color: white;
+    background-color: rgb(0, 136, 255);
+    border-radius: 35%;
+    padding:10px;
+    width: 80px;
+    height: 30px;
+  }
+
+  .name {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   
   .sidebar {
