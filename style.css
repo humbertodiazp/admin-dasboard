@@ -46,12 +46,12 @@ body, html {
 /* ----- Start of Header ----- */
 
   .header {
-    display: flex;
+   
     grid-column: 2 / 4;
     grid-row: 1 / 2;
     height: 20vh;
-    margin-top: 15px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-right: 50px;
   }
 
 /* ---- start header top ---- */
@@ -60,12 +60,14 @@ body, html {
   .content-top {
     display: flex;
     justify-content: space-evenly;
+    gap: 10vw;
     align-items: flex-start;
   }
 
   .search {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    
   }
   .search_input{
     padding: 6px;
@@ -75,14 +77,21 @@ body, html {
     width: 40vw;
     border-radius: 25px;
   }
+
+  .top-icons {
+    display: flex;
+
+  }
   
 
-  #magnify {
-    font-size: 20px;
+  .top-icons .mdi-face-man-outline{
+    transform: scale(3)
+    
   }
 
   .top-name {
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bold;
   }
 
 /* ---- end header top --- */
@@ -95,8 +104,15 @@ body, html {
 }
 
 .large-name {
-    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 20px;
     font-weight: bolder;
+  }
+  .large-name .mdi-face-man-outline{
+    font-size: 30px;
+    
   }
 
 /* header buttons */
