@@ -108,8 +108,9 @@ body, html {
 /* ---- start header bottom ---- */
 .content-bottom {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-end;
+  margin-top: 70px;
 }
 
 .large-name {
