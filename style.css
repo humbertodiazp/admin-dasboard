@@ -48,7 +48,7 @@ body, html {
   .header {
     grid-column: 2 / 4;
     grid-row: 1 / 2;
-    height: 20vh;
+    height: 16vh;
     margin-top: 25px;
     margin-right: 50px;
   }
@@ -110,7 +110,7 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .large-name {
@@ -122,7 +122,9 @@ body, html {
   }
   .large-name .mdi-face-man-outline{
     font-size: 30px;
-    
+    transform: scale(2.2);
+    margin-left:20px ;
+    margin-right:10px ;
   }
 
 /* header buttons */
@@ -154,7 +156,7 @@ body, html {
     grid-column: 1/2;
     grid-row: 1/ 4;
     padding: 5px;
-    width: 15vw;
+    width: 17vw;
     flex-shrink: 0;
     margin-top: 0;
     padding-top: 1px;
